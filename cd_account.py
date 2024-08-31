@@ -35,4 +35,4 @@ def create_cd_account(balance, interest_rate, months):
     user_account.set_interest(new_balance)
 
     # Return the updated balance and interest earned.
-    return user_account
+    return new_balance, interest_earned
